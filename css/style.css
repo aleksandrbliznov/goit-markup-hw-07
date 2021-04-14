@@ -786,9 +786,9 @@ footer {
     margin-bottom: 9px;
 }
 
-.address a {
+/* .address a {
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 .footer-box__link:hover,
 .footer-box__link:focus {
