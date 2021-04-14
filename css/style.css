@@ -276,9 +276,9 @@ p {
 
 }
 
-.nav-contact.contact-item {
+/* .nav-contact.contact-item {
     fill: #afb1b8;
-}
+} */
 
 /* Service -  IMAGE OVERLAY */
 
@@ -293,7 +293,7 @@ p {
     transform: translatey(0);
 }
 
-.image-overlay {
+.service-image__overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -310,7 +310,7 @@ p {
     transition: transform 250ms ease;
 }
 
-.image-overlay>p {
+.service-overlay--text {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -346,7 +346,7 @@ p {
     letter-spacing: 0.03em;
 }
 
-.section .section__title--h3 {
+.section__title--h3 {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -376,7 +376,7 @@ p {
     margin-right: 30px;
 }
 
-.benefits__item.icon-antenna::before {
+.benefits__item.benefits-icon__antenna::before {
     content: '';
     display: block;
     height: 120px;
@@ -390,7 +390,7 @@ p {
     border-radius: 4px;
 }
 
-.benefits__item.icon-clock::before {
+.benefits__item.benefits-icon__clock::before {
     content: '';
     display: block;
     height: 120px;
@@ -404,7 +404,7 @@ p {
     border-radius: 4px;
 }
 
-.benefits__item.icon-diagram::before {
+.benefits__item.benefits-icon__diagram::before {
     content: '';
     display: block;
     height: 120px;
@@ -418,7 +418,7 @@ p {
     border-radius: 4px;
 }
 
-.benefits__item.icon-astranaut::before {
+.benefits__item.benefits-icon__astranaut::before {
     content: '';
     display: block;
     height: 120px;
