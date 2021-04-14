@@ -53,10 +53,6 @@ p {
 
 /* Header logo footer logo*/
 
-
-
-
-
 .logo-footer {
     font-family: Raleway;
     font-weight: bold;
@@ -369,15 +365,15 @@ p {
     display: flex;
 }
 
-.benefits-item {
+.benefits__item {
     width: 270px;
 }
 
-.benefits-item:not(:last-child) {
+.benefits__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.benefits-item.icon-antenna::before {
+.benefits__item.icon-antenna::before {
     content: '';
     display: block;
     height: 120px;
@@ -391,7 +387,7 @@ p {
     border-radius: 4px;
 }
 
-.benefits-item.icon-clock::before {
+.benefits__item.icon-clock::before {
     content: '';
     display: block;
     height: 120px;
@@ -405,7 +401,7 @@ p {
     border-radius: 4px;
 }
 
-.benefits-item.icon-diagram::before {
+.benefits__item.icon-diagram::before {
     content: '';
     display: block;
     height: 120px;
@@ -419,7 +415,7 @@ p {
     border-radius: 4px;
 }
 
-.benefits-item.icon-astranaut::before {
+.benefits__item.icon-astranaut::before {
     content: '';
     display: block;
     height: 120px;
