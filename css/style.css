@@ -310,7 +310,7 @@ p {
     transition: transform 250ms ease;
 }
 
-.service-overlay--text {
+.service__overlay--text {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
