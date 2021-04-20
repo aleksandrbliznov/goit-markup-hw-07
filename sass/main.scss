@@ -1,2 +1,37 @@
 @import './utils/variables';
 @import './components/base';
+
+@import './components/Header/logo';
+@import './components/Header/header';
+@import './components/Header/nav';
+@import './components/Header/contacts';
+
+@import './components/hero/hero';
+@import './components/hero/hero-title';
+@import './components/hero/hero-button';
+
+@import './components/services/services';
+@import './components/services/service-text';
+@import './components/services/overlay';
+
+@import './components/benefits/benefits';
+@import './components/benefits/benefits-item';
+@import './components/benefits/benefits-text';
+
+@import './components/team/team';
+@import './components/team/team-social';
+
+@import './components/clients/clients';
+
+@import './components/footer/footer';
+@import './components/footer/footer-social';
+@import './components/footer/connect';
+
+@import './components/modal/modal-backdrop';
+@import './components/modal/modal-form';
+@import './components/modal/modal';
+
+
+
+
+

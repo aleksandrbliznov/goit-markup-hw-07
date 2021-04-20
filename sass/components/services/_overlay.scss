@@ -1,0 +1,39 @@
+.service__image {
+    position: relative;
+    width: 100%;
+    background-color: #bdbdbd;
+    overflow: visible;
+
+    &:hover .image-overlay {
+        transform: translatey(0);
+    }
+}
+
+.service-image__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background: rgba(47, 48, 58, 0.8);
+
+    transform: translatey(0%);
+    transition: transform 250ms ease;
+}
+
+.service__overlay--text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $primary-white;
+}

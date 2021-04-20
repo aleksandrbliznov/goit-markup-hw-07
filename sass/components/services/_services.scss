@@ -1,0 +1,39 @@
+.section {
+    padding: 94px 0 94px 0;
+}
+
+ .section__title--h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.section__title--h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.service {
+    padding-top: 0;
+}
+
+.section-service .section__title--h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.service__list {
+    display: flex;
+}
+
+.service__item:not(:last-child) {
+    margin-right: 30px;
+}

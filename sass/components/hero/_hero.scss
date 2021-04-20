@@ -1,0 +1,20 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+ }
+ 
+ .hero {
+     max-width: 1600px;
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     padding: 200px 0;
+    
+     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url(../images/hero.jpg);
+     background-position: center;
+     background-color: $bg-dark;
+ }

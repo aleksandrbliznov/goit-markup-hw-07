@@ -1,0 +1,10 @@
+.container.footer-box {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.footer-box__container:not(:last-child) {
+    margin-right: 70px;
+}

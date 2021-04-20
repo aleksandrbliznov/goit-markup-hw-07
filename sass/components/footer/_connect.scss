@@ -1,0 +1,115 @@
+.footer-connect__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: $primary-white;
+}
+
+.footer-connect__list {
+    display: flex;
+}
+
+.footer-connect__item {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.footer-connect__link  {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: $primary-white;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $primary-blue;
+        fill: $primary-white;
+    }
+}
+
+.footer-connect__icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* CONNECT FORM */
+
+.connect {
+    margin: 0;
+}
+
+.connect__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+    color: $primary-white;
+}
+
+
+.connect__image {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.connect__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+   
+
+    color: $primary-white;
+    background: $primary-blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+}
+
+.connect__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+
+    color: rgba(255, 255, 255, 0.6);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.button__main {
+    display: flex;
+}
