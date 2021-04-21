@@ -1,0 +1,22 @@
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    
+    background: rgba(33, 150, 243, 0.9);
+
+    transform: translatey(100%);
+    transition: transform 250ms ease;
+}
+
+.overlay__text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding: 63px 24px;
+
+    color: #FFFFFF;
+}
